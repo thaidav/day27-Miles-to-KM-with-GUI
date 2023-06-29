@@ -3,12 +3,12 @@ from tkinter import *
 
 window = Tk()
 window.title("Miles to Kilometers")
-window.geometry("400x200")
+window.geometry("300x200")
 window.config(pady=20)
 
 result = 0
 
-input = Entry()
+input = Entry(width=15)
 input.grid(column=2, row=2)
 
 label1_Miles = Label(text="Miles", font=("Arial", 20,))
